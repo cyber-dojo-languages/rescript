@@ -7,7 +7,7 @@
 # packages a kata's rescript.json names.
 #
 # No version is named, so a rebuild picks up the current release, and
-# check_version.sh is what stops that happening silently.
+# /versions.json records which one it was.
 npm install --prefix /etc/rescript rescript
 
 # The compiler writes its build output beside the sources it compiles, and a
